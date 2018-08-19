@@ -1,0 +1,217 @@
+*{
+ padding:0px;
+ margin:0px;
+
+}
+.wraperclubs{
+	width:100%;
+	height:900px;
+}
+.wraperclubs .topic{
+	width:40%;
+	height:8%;
+	float:left;
+}
+.wraperclubs .topic h3{
+	padding-top:3%;
+	padding-left:5%;
+}
+.wraperclubs .navbar{
+	background-color:#34495E;
+     height:8%;
+     float:left;
+     width:60%;
+ }
+.wraperclubs .navbar ul li{
+	padding-top:2.5%;
+	display:inline-block;
+	padding-left:5%;
+	font-family:  sans-serif;
+  font-size: 18px;
+}
+
+.wraperclubs .navbar ul li a:hover{
+    color:#AAB7B8;
+    border-radius:5px;
+    font-weight:bold;
+}
+.wraperclubs .navbar ul li a{
+   text-decoration:none;
+     color:white;
+}
+@media screen and (max-width:1348px){
+   .wraperclubs{
+   	width:100%; 
+}
+}
+.wraperclubs .image {
+	width:100%;
+	height:35%;
+	float:left;
+}
+.wraperclubs .image img{
+	width:98%;
+	height:100%;
+  position: relative;
+  left:1%;
+  border-radius: 10px;
+}
+.wraperclubs .clubbot{
+	width:50%;
+	height:52%;
+	float:left;
+	font-family:sans-serif;
+	font-size:20px;
+	padding-top:2%;
+	padding-left:4%;
+  background-color:#91D0F7  ;
+}
+.wraperclubs .socie{
+	width:43%;
+ height:52%;
+	float:left;
+	font-family:sans-serif;
+	font-size:20px;
+	padding-top:2%;
+  background-color:#91D0F7;
+  padding-left:3%;
+}
+.wraperclubs .clubbot ul li{
+	padding-top:10px;
+}
+.wraperclubs .socie ul li{
+	padding-top:10px;
+}
+.wraperclubs .foot{
+  padding-top:1%;
+  text-align:center;
+  width:100%;
+  height:4%;
+  background-color:#34495E;
+  float:left;
+  color:white;
+  font-size:16px;
+  }
+ @media screen and (max-width:960px){
+    .wraperclubs .navbar ul li{
+   	 font-size:18px;
+   }
+}
+
+
+  @media screen and (max-width:750px){
+    .wraperclubs .navbar ul li{
+   	 font-size:16px;
+   }
+}
+  @media screen and (max-width:450px){
+   .wraperclubs .navbar ul li{
+   	 font-size:11px;
+   }
+
+  }
+  @media screen and (max-width:960px){
+  
+    .wraperclubs .topic h3{
+   	 font-size:17px;
+   }
+
+  }
+   @media screen and (max-width:750px){
+  
+    .wraperclubs .topic h3{
+   	 font-size:15px;
+   }
+
+  }
+   @media screen and (max-width:450px){
+  
+    .wraperclubs .topic h3{
+   	 font-size:13px;
+   }
+
+  }
+   @media screen and (max-width:960px){
+  
+    .wraperclubs .clubbot ul li{
+   	 font-size:20px;
+   }
+
+  }
+  @media screen and (max-width:750px){
+  
+    .wraperclubs .clubbot ul li{
+   	 font-size:15px;
+   }
+
+  }
+  @media screen and (max-width:450px){
+  
+    .wraperclubs .clubbot ul li{
+   	 font-size:10px;
+   }
+
+  }
+ 
+  @media screen and (max-width:960px){
+  
+    .wraperclubs .socie ul li{
+   	 font-size:20px;
+   }
+
+  }
+  @media screen and (max-width:750px){
+  
+    .wraperclubs .socie ul li{
+   	 font-size:15px;
+   }
+
+  }
+  @media screen and (max-width:450px){
+  
+    .wraperclubs .socie ul li{
+   	 font-size:10px;
+   }
+
+  }
+ @media screen and (max-width:960px){
+.wraperclubs .clubbot h2{
+	font-size:20px;
+}
+}
+ @media screen and (max-width:750px){
+.wraperclubs .clubbot h2{
+	font-size:17px;
+}
+}
+ @media screen and (max-width:450px){
+.wraperclubs .clubbot h2{
+	font-size:15px;
+}
+}
+ @media screen and (max-width:960px){
+.wraperclubs .socie h2{
+	font-size:20px;
+}
+
+.wraperclubs .foot{
+  font-size:18px;
+}
+}
+ @media screen and (max-width:750px){
+.wraperclubs .socie h2{
+	font-size:17px;
+}
+
+.wraperclubs .foot{
+  font-size:15px;
+}
+}
+ @media screen and (max-width:450px){
+.wraperclubs .socie h2{
+	font-size:13px;
+}
+.wraperclubs .foot{
+font-size:10px;
+}
+}

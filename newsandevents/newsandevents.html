@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>News and Events</title>
+	<link rel="stylesheet" type="text/css" href="css/newsandevents.css">
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<script type="text/javascript" >
+		var myimage=document.getElementById("img1");
+
+var imageArray=["images/aurudu.jpg","images/780822.jpg","images/news.jpg","images/3.jpg",
+                  "images/4.jpg"];
+
+var imageindex=0;
+
+function changeImage(){
+
+
+	img1.setAttribute("src",imageArray[imageindex]);
+	imageindex++;
+	if(imageindex >= imageArray.length){
+		imageindex=0;
+	}
+
+}
+
+var interval=setInterval(changeImage,2000);
+
+		var myimage=document.getElementById("img3");
+
+var imageArray=["images/aurudu.jpg","images/news.jpg","images/3.jpg","images/780822.jpg",
+                  "images/4.jpg"];
+
+var imageindex=0;
+
+function changeImage1(){
+
+
+	img3.setAttribute("src",imageArray[imageindex]);
+	imageindex++;
+	if(imageindex >= imageArray.length){
+		imageindex=0;
+	}
+
+}
+
+var interval=setInterval(changeImage1,2000);
+
+	var myimage=document.getElementById("img4");
+
+var imageArray=["images/show.jpg","images/news.jpg","images/3.jpg","images/780822.jpg","images/4.jpg"];
+                  
+
+var imageindex=0;
+
+function changeImage2(){
+
+
+	img4.setAttribute("src",imageArray[imageindex]);
+	imageindex++;
+	if(imageindex >= imageArray.length){
+		imageindex=0;
+	}
+
+}
+
+var interval=setInterval(changeImage2,2000);
+	</script>
+</head>
+<body onLoad="changeImage(); changeImage1(); changeImage2()">
+	<div id="div1">
+			<div id="div12">
+				<nav id="nav1">
+					<ul>
+						<li><a class="link1" href="../home/home.html">Home</a></li>
+						<LI><a class="link1" href="../login/login.php">Login</a></li>
+						<LI><a class="link1" href="../newsandevents/newsandevents.html">News and Events</a></li>
+						<li><a class="link1" href="../clubs/clubs.html">Clubs and Societies</a></li>
+						<li><a class="link1" href="../contact/contact.php">Contact us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id="div121">
+			<h3 id="h2">NATIONAL SCHOOL OF BUSINESS MANAGEMENT</h3>
+			</div>
+			<div id="div13">
+			
+				<img alt="image" id="img1" src="images/aurudu.jpg">
+				<img alt="image" id="img3" src="images/wesak.jpg">
+				<img alt="image" id="img4" src="images/show.jpg">
+				
+
+			</div>
+			<div id="div14">
+			<h2 id="h3">NSBM EVENTS</h2>
+			<p id="par1">This one-of-a-kind university is the place for all students to showcasw their skills in music, dance, art, and theatre. It also provides opportunities for students to get exposure to different ethnic, religious and cultural activities. “We Got Talent”, “Siyapathsiya Udanaya”, Christmas Carols, NSBM Saddharmaloka Vesak Zone, “Aloko Udapadi – Poson Bethi Gee Saraniya” and NSBM Walk are some of those exciting activities. The objective of organizing these events is to provide opportunities for students to develop and identify their skills and creativity while ensuring that NSBM Green University Town produces individuals who respect different cultures.</p>
+			</div>
+			<div id="div15">
+			
+			    <img alt="image" id="img5" src="images/news.jpg">
+				<img alt="image" id="img6" src="images/780822.jpg">
+				<img alt="image" id="img7" src="images/110273.jpg">s
+			</div>
+			<div id="div16">
+			<h2 id="h4">NEWS</h2>
+			<p id="par2">The Poson Dhamma sermon organized by the Buddhist society of NSBM Green University Town, took place today, 6th June 2017, at the University Students Center. Most Venerable Mawarale Bhaddhiya Thero delivered the sermon to a large gathering. Many university officials headed by the Vice Chancellor of NSBM, Dr E. A. Weerasinghe, were present for the event.</p>
+            
+			</div>
+
+			<div id="div17">
+			<footer>Copyright © All rights reserved , Design & Developed by NSBM Designers
+   <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p><p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+</footer>
+			</div>
+
+	</div>
+
+</body>
+</html>

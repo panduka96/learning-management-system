@@ -1,0 +1,186 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+
+
+#div1{
+    width:100%;
+    height: 900px;
+   
+
+}
+
+#nav1{
+
+	height:100%;
+}
+#div12{
+	background-color: #34495E;
+	height:7.5%;
+	width:60%;
+	float:left;
+}
+#div121{
+	height: 7.5%;
+	width:40%;
+	float:left;
+	background-color: white;
+}
+#h2{
+    padding-top: 3%;
+    padding-left:5%;
+
+}
+
+
+#nav1 ul li {
+	display:inline-block;
+	padding-top:2.5%;
+    padding-left: 5%;
+
+}
+#nav1 ul li .link1{
+
+        font-family: sans-serif;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+}
+#nav1 ul li .link1:hover{
+	color:#AAB7B8;
+	font-weight: bold;
+}
+
+#div13{
+
+	width:100%;
+	height:60%;
+	background-color:#BDF6FA;
+	float:left;
+}
+#img1{
+	width:95%;
+	height: 100%;
+  position: relative;
+  left:2.5%;
+  border-radius: 11px;
+  box-shadow:2px 1px darkgray; 
+
+}
+ #div14 {
+ 	width:100%;
+ 	height: 27.5%;
+ 	background-color:#BDF6FA;
+ 	float:left;
+
+ }
+
+ #head1{
+ 	width:97%;
+ 	position:relative;
+ 	top:5%;
+ 	left:1%;
+ 	background-color:#3F858A ;
+ 	 font-family: sans-serif;
+ }
+ #par1{
+ 	position: relative;
+ 	top:10%;
+ 	left:1%;
+ 	width:97%;
+ 	 font-family: sans-serif;
+ }
+ #div15{
+ 	width: 100%;
+ 	height: 5%;
+ 	float:left;
+ 	background-color: #34495E;
+
+ }
+ footer{
+ 	width:70%;
+ 	position: relative;
+ 	top:20%;
+ 	left:30%;
+ 	color:white;
+ }
+
+@media screen and (max-width:960px){
+     #div1{
+     	width:100%;
+     }
+     #par1{
+     	font-size:16px;
+     }
+      footer{
+      	font-size:16px;
+      }
+      #head1{
+      	 font-size:20px;
+      }
+      
+      #nav1 ul li .link1{
+      	font-size:16px;
+      }
+      #h2{
+      	font-size: 20px;
+      }
+
+}
+@media screen and (max-width:750px){
+     #div1{
+     	width:100%;
+     }
+     #par1{
+     	font-size:13px;
+     }
+      footer{
+      	font-size:13px;
+      }
+       #head1{
+      	 font-size:18px;
+      }
+      #nav1 ul li .link1{
+      	font-size:14px;
+      }
+      #h2{
+      	font-size: 16px;
+      }
+      #img1{
+        height: 90%;
+      }
+
+
+
+}
+@media screen and (max-width:450px){
+     #div1{
+     	width:100%;
+     }
+     #par1{
+     	font-size:11px;
+     }
+      footer{
+      	font-size:10px;
+        position: relative;
+        left:5%;
+        width:90%;
+      }
+       #head1{
+      	 font-size:16px;
+      }
+     #nav1 ul li .link1{
+     	font-size:11px;
+      
+     }
+     #h2{
+      	font-size: 13px;
+      }
+      #img1{
+        height: 80%;
+      }
+
+
+}
